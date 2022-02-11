@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectUpdate.vue render component 1`] = `
+"<v-row-stub tag=\\"div\\" nogutters=\\"true\\" justify=\\"center\\">
+  <v-col-stub cols=\\"4\\" tag=\\"div\\">
+    <v-row-stub tag=\\"div\\">
+      <v-col-stub cols=\\"12\\" tag=\\"div\\" class=\\"text-h4\\">
+        project.form.update.title
+      </v-col-stub>
+      <v-col-stub cols=\\"12\\" tag=\\"div\\" class=\\"text-center my-4\\">
+        <v-progress-circular-stub color=\\"primary\\" indeterminate=\\"true\\" rotate=\\"0\\" size=\\"32\\" width=\\"4\\" value=\\"0\\"></v-progress-circular-stub>
+      </v-col-stub>
+      <!---->
+      <!---->
+      <v-col-stub cols=\\"12\\" tag=\\"div\\">
+        <v-btn-stub color=\\"error\\" tag=\\"button\\" activeclass=\\"\\" to=\\"[object Object]\\" block=\\"true\\" type=\\"button\\">
+          global.cancel
+        </v-btn-stub>
+      </v-col-stub>
+      <v-col-stub cols=\\"12\\" tag=\\"div\\">
+        <v-btn-stub color=\\"primary\\" tag=\\"button\\" activeclass=\\"\\" to=\\"[object Object]\\" block=\\"true\\" type=\\"button\\">
+          project.form.back
+        </v-btn-stub>
+      </v-col-stub>
+    </v-row-stub>
+  </v-col-stub>
+</v-row-stub>"
+`;

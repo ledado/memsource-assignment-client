@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectStatisticCard.vue render component 1`] = `
+"<v-row-stub tag=\\"div\\" nogutters=\\"true\\" class=\\"project-statistic-card orange\\">
+  <v-col-stub cols=\\"12\\" tag=\\"div\\">
+    <v-row-stub tag=\\"div\\" nogutters=\\"true\\">
+      <v-col-stub cols=\\"12\\" tag=\\"div\\" class=\\"project-statistic-card-text body-2\\">
+        Test
+      </v-col-stub>
+      <v-col-stub cols=\\"12\\" tag=\\"div\\" class=\\"project-statistic-card-text text-h4\\">
+        10
+      </v-col-stub>
+      <v-col-stub cols=\\"12\\" tag=\\"div\\" class=\\"project-statistic-card-text body-2\\">
+        Description test
+      </v-col-stub>
+    </v-row-stub>
+  </v-col-stub>
+</v-row-stub>"
+`;

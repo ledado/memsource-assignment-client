@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectForm.vue render component 1`] = `
+"<v-row-stub tag=\\"div\\" nogutters=\\"true\\">
+  <v-col-stub cols=\\"12\\" tag=\\"div\\">
+    <v-form-stub lazyvalidation=\\"true\\" value=\\"true\\">
+      <v-text-field-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"[Function],[Function]\\" successmessages=\\"\\" value=\\"test\\" backgroundcolor=\\"\\" label=\\"project.form.name.label\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" outlined=\\"true\\" type=\\"text\\" required=\\"\\"></v-text-field-stub>
+      <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"[Function]\\" successmessages=\\"\\" value=\\"en\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"project.form.source_language.label\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" outlined=\\"true\\" type=\\"text\\" valuecomparator=\\"[Function]\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"en,cs,ru,de,fi,ko,hu,ja\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\" required=\\"\\"></v-select-stub>
+      <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"[Function]\\" successmessages=\\"\\" value=\\"cs\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" label=\\"project.form.target_languages.label\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" outlined=\\"true\\" type=\\"text\\" valuecomparator=\\"[Function]\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"en,cs,ru,de,fi,ko,hu,ja\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\" multiple=\\"true\\" required=\\"\\"></v-select-stub>
+      <v-btn-stub color=\\"success\\" tag=\\"button\\" activeclass=\\"\\" block=\\"true\\" type=\\"button\\">
+        project.form.submit.CREATE
+      </v-btn-stub>
+    </v-form-stub>
+  </v-col-stub>
+</v-row-stub>"
+`;

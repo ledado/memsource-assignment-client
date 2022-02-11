@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProjectDashboard.vue render component 1`] = `
+"<v-row-stub tag=\\"div\\" nogutters=\\"true\\">
+  <v-col-stub cols=\\"12\\" tag=\\"div\\" class=\\"text-h4\\">
+    project.overview.title
+  </v-col-stub>
+  <v-col-stub cols=\\"12\\" tag=\\"div\\">
+    <v-row-stub tag=\\"div\\">
+      <v-col-stub cols=\\"4\\" tag=\\"div\\">
+        <project-statistic-card-stub value=\\"0\\" title=\\"project.status.new\\" description=\\"project.overview.new.description\\" backgroundclass=\\"blue\\"></project-statistic-card-stub>
+      </v-col-stub>
+      <v-col-stub cols=\\"4\\" tag=\\"div\\">
+        <project-statistic-card-stub value=\\"0\\" title=\\"project.status.completed\\" description=\\"project.overview.completed.description\\" backgroundclass=\\"orange\\"></project-statistic-card-stub>
+      </v-col-stub>
+      <v-col-stub cols=\\"4\\" tag=\\"div\\">
+        <project-statistic-card-stub value=\\"0\\" title=\\"project.status.delivered\\" description=\\"project.overview.delivered.description\\" backgroundclass=\\"green\\"></project-statistic-card-stub>
+      </v-col-stub>
+    </v-row-stub>
+  </v-col-stub>
+  <v-col-stub cols=\\"12\\" tag=\\"div\\">
+    <v-row-stub tag=\\"div\\" justify=\\"space-between\\">
+      <v-col-stub cols=\\"auto\\" tag=\\"div\\" class=\\"text-h4\\">
+        project.list.title
+      </v-col-stub>
+      <v-col-stub cols=\\"auto\\" tag=\\"div\\">
+        <v-btn-stub color=\\"success\\" tag=\\"button\\" activeclass=\\"\\" to=\\"[object Object]\\" type=\\"button\\">
+          project.list.create_new
+        </v-btn-stub>
+      </v-col-stub>
+    </v-row-stub>
+  </v-col-stub>
+  <v-col-stub cols=\\"12\\" tag=\\"div\\">
+    <v-row-stub tag=\\"div\\">
+      <v-col-stub cols=\\"auto\\" tag=\\"div\\">
+        <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" value=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" hidedetails=\\"true\\" label=\\"project.list.filter_by_name\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" outlined=\\"true\\" type=\\"text\\" valuecomparator=\\"[Function]\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\" multiple=\\"true\\"></v-select-stub>
+      </v-col-stub>
+      <v-col-stub cols=\\"auto\\" tag=\\"div\\">
+        <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" value=\\"\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" hidedetails=\\"true\\" label=\\"project.list.filter_by_status\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" outlined=\\"true\\" type=\\"text\\" valuecomparator=\\"[Function]\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"NEW,COMPLETED,DELIVERED\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\" multiple=\\"true\\"></v-select-stub>
+      </v-col-stub>
+      <v-col-stub cols=\\"auto\\" tag=\\"div\\">
+        <v-select-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" value=\\"id\\" appendicon=\\"$dropdown\\" backgroundcolor=\\"\\" hidedetails=\\"true\\" label=\\"project.list.sort_by.label\\" loaderheight=\\"2\\" clearicon=\\"$clear\\" outlined=\\"true\\" type=\\"text\\" valuecomparator=\\"[Function]\\" nodatatext=\\"$vuetify.noDataText\\" items=\\"[object Object],[object Object],[object Object],[object Object]\\" itemcolor=\\"primary\\" itemdisabled=\\"disabled\\" itemtext=\\"text\\" itemvalue=\\"value\\" menuprops=\\"[object Object]\\"></v-select-stub>
+      </v-col-stub>
+      <v-col-stub cols=\\"auto\\" tag=\\"div\\">
+        <v-checkbox-stub errorcount=\\"1\\" errormessages=\\"\\" messages=\\"\\" rules=\\"\\" successmessages=\\"\\" backgroundcolor=\\"\\" label=\\"project.list.sort_by_desc\\" ripple=\\"true\\" valuecomparator=\\"[Function]\\" indeterminateicon=\\"$checkboxIndeterminate\\" officon=\\"$checkboxOff\\" onicon=\\"$checkboxOn\\"></v-checkbox-stub>
+      </v-col-stub>
+    </v-row-stub>
+  </v-col-stub>
+  <v-col-stub cols=\\"12\\" tag=\\"div\\" class=\\"mt-3\\">
+    <v-data-table-stub mobilebreakpoint=\\"600\\" items=\\"\\" options=\\"[object Object]\\" sortby=\\"id\\" customsort=\\"[Function]\\" page=\\"1\\" itemsperpage=\\"5\\" groupby=\\"\\" groupdesc=\\"\\" customgroup=\\"[Function]\\" locale=\\"en-US\\" customfilter=\\"[Function]\\" serveritemslength=\\"-1\\" itemkey=\\"id\\" value=\\"\\" expanded=\\"\\" loading=\\"true\\" noresultstext=\\"$vuetify.dataIterator.noResultsText\\" nodatatext=\\"$vuetify.noDataText\\" loadingtext=\\"$vuetify.dataIterator.loadingText\\" selectablekey=\\"isSelectable\\" loaderheight=\\"4\\" headers=\\"[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]\\" expandicon=\\"$expand\\" itemclass=\\"\\"></v-data-table-stub>
+  </v-col-stub>
+</v-row-stub>"
+`;
